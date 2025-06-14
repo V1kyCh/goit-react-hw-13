@@ -36,3 +36,28 @@
     transform: rotate(360deg);
   }
 }
+
+.open-modal-btn {  
+  display: block;
+  padding: 12px 20px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 300px;
+}
+
+.open-modal-btn:hover {
+  background-color: #45a049;
+  transform: scale(1.05);
+}
+
+.open-modal-btn:active {
+  transform: scale(0.98);
+}

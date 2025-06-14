@@ -18,8 +18,10 @@ export class Modal extends Component {
     render() {
 
         return <div className={this.props.isOpen ? "modalOpen" : "modalClose"}>
-            <h1>Modal is open</h1>
-            <button onClick={this.props.closeModal}>close modal</button>
+            <div className="modal">
+                <h1 className="text">Modal is open</h1>
+                <button className="btn" onClick={this.props.closeModal}>+</button>
+            </div>
         </div>
     }
 }
